@@ -1,0 +1,5 @@
+.header {
+    -fx-font-size: 28px;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: blue;
+}

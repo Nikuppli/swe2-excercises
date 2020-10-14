@@ -16,6 +16,10 @@ public class Person {
         this.hasPet = hasPet;
     }
 
+    public Person() {
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

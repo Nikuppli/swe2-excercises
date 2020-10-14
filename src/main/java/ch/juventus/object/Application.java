@@ -8,19 +8,12 @@ public class Application {
         Person yperson = new Person("Yanik", "Schuppli", 31, true);
         Address yaddress = new Address("Walzmühle", 10, 8500, "Frauenfeld");
 
-
         xperson.setAddress(xaddress);
         System.out.println(xperson);
         yperson.setAddress(yaddress);
         System.out.println(yperson);
 
         System.out.println(xperson.equals(yperson));
-
-
-
     }
-
-
-
 
 }
