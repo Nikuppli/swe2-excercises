@@ -1,8 +1,8 @@
 package ch.juventus.object;
-
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Person {
+public class Person implements Serializable {
     private String firstName;
     private String lastName;
     private Address address;

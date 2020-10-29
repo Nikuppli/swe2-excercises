@@ -15,26 +15,24 @@ public class MathUtils {
             }
             return sum;
         }
-  /*
-    public double subtraction (List<Double> numbers){
-        double dif = 0;
-        for (Double num : numbers){
-            dif -= num;
-        }
-        return dif;
-    }
-    public double multiplication (List<Double> numbers){
-        double mul;
-        for (Double num : numbers){
-            num *= num;
-        }
-        return mul;
+
+    public double add(double a, double b) {
+        return a + b;
     }
 
-        /*
-        public double division (double a, double b){
 
-        }
-*/
+    public double subtraction(double a, double b) {
+        return a - b;
+    }
+
+
+    public double division(double a, double b) {
+        return a / b;
+    }
+
+
+    public double multiplication(double a, double b) {
+        return a * b;
+    }
 
 }

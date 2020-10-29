@@ -22,7 +22,9 @@
         <TextField fx:id="name" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="2"/>
         <HBox spacing="10" alignment="bottom_right"
               GridPane.columnIndex="2" GridPane.rowIndex="3">
-            <Button text="Submit" onAction="#onSubmit"/>
+            <Button text="Submit">
+                <onAction>#onSubmit</onAction>
+            </Button>
         </HBox>
         <Label fx:id="actiontarget" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="3" />
     </children>

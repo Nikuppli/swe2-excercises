@@ -7,15 +7,15 @@ import java.util.*;
 public class CollectionsImplemented {
 
     public static void main(String[] args) {
-        //arrayList();
+        arrayList();
         //linkedList();
         //hashSet();
         //linkedHashSet();
         //treeSet();
         //queue();
-        hashMap();
-        linkedHashMap();
-        treeMap();
+        //hashMap();
+        //linkedHashMap();
+        //treeMap();
     }
 
     static void arrayList() {
